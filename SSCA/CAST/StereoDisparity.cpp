@@ -35,6 +35,7 @@ THE SOFTWARE.
 #include "SegmentTree.h"
 
 #include <iostream>
+#define CV_LOAD_IMAGE_COLOR cv::IMREAD_COLOR
 using namespace std;
 
 

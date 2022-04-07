@@ -30,6 +30,8 @@ THE SOFTWARE.
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <algorithm> 
+#define CV_BGR2GRAY cv::COLOR_BGRA2GRAY
+#define CV_RGB2BGR cv::COLOR_RGB2BGR
 
 #include "StereoHelper.h"
 #include "Toolkit.h"

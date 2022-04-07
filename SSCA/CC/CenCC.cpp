@@ -1,4 +1,5 @@
 #include "CenCC.h"
+#define CV_RGB2GRAY cv::COLOR_RGB2GRAY
 
 
 void CenCC::buildCV( const Mat& lImg, const Mat& rImg, const int maxDis, Mat* costVol )

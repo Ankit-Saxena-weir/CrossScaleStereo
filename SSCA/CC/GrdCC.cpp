@@ -1,4 +1,5 @@
 #include "GrdCC.h"
+#define CV_RGB2GRAY cv::COLOR_RGB2GRAY
 
 
 inline double myCostGrd( double* lC, double* rC,

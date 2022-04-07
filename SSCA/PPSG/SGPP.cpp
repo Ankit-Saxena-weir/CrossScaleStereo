@@ -5,6 +5,8 @@
 #include "misc.h"
 #include "pnmfile.h"
 #include "segment-image.h"
+#define CV_RGB2GRAY cv::COLOR_RGB2GRAY
+#define CV_GRAY2RGB cv::COLOR_GRAY2RGB
 
 namespace SGPP_FUNC {
 	void lrCheck( Mat& lDis, Mat& rDis, int* lValid, int* rValid, const int disSc )

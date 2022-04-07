@@ -1,5 +1,6 @@
 #include "CGCC.h"
 #include "../CAFilter/GuidedFilter.h"
+#define CV_RGB2GRAY cv::COLOR_RGB2GRAY
 
 inline double cg_myGrdDiff( double* lG, double* rG )
 {

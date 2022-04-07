@@ -2,6 +2,7 @@
 #include "StereoDisparity.h"
 #include "StereoHelper.h"
 #include "SegmentTree.h"
+#define CV_RGB2BGR cv::COLOR_RGB2BGR
 
 //
 // Segment-Tree Cost Aggregation

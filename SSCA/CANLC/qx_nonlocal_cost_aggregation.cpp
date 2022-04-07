@@ -1,6 +1,7 @@
 /*$Id: qx_nonlocal_cost_aggregation.cpp,v 1.1 2007/02/16 04:11:12 liiton Exp $*/
 #include "qx_basic.h"
 #include "qx_nonlocal_cost_aggregation.h"
+#define CV_RGB2GRAY cv::COLOR_RGB2GRAY
 qx_nonlocal_cost_aggregation::qx_nonlocal_cost_aggregation()
 {
 	m_buf_u2=NULL;

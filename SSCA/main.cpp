@@ -10,6 +10,8 @@
 #include "CC/GrdCC.h"
 #include "CAFilter/GFCA.h"
 #include "GetMehod.h"
+#define CV_BGR2RGB cv::COLOR_BGR2RGB
+#define CV_LOAD_IMAGE_COLOR cv::IMREAD_COLOR
 
 
 //#define USE_MEDIAN_FILTER
